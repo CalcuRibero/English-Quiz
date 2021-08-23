@@ -12,7 +12,6 @@ const Quiz = () => {
         if (choice === Data[quizOrder].value){
             setScore(score + 1);
         }
-        setChoice('');
         setQuiz(quizOrder + 1);
     }
 
